@@ -21,3 +21,14 @@ void generarPCs(struct compu pcs[], int cantidad) {
         pcs[i].tipo_cpu = tipos[rand() % 6];
     }
 }
+
+void listarPCs(struct compu pcs[], int cantidad) {
+    printf("Listado de PCs:\n");
+    for (int i = 0; i < cantidad; i++) {
+        printf("PC #%d:\n", i + 1);
+        printf("  Velocidad: %d GHz\n", pcs[i].velocidad);
+        printf("  Año: %d\n", pcs[i].anio);
+        printf("  Núcleos: %d\n", pcs[i].cantidad_nucleos);
+        printf("  Tipo de CPU: %s\n\n", pcs[i].tipo_cpu);
+    }
+}
