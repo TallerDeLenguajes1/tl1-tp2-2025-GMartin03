@@ -1,0 +1,12 @@
+# Ignorar archivos ejecutables, objetos y símbolos de depuración
+*.exe
+*.obj
+*.tds
+
+# Opcional: Ignorar archivos temporales comunes
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
