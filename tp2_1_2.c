@@ -16,7 +16,11 @@ int main() {
     }
 
     return 0;
+<<<<<<< HEAD
 }
 
 
 // No se puede ver el archivo tp2_1_2 porque este fue realizado en la rama Opcion2, no en la rama main.
+=======
+}
+>>>>>>> Opcion_2
